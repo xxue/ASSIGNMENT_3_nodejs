@@ -1,0 +1,21 @@
+html {
+    font: 500,  Helvetica;
+    font-weight: 200;
+}
+
+body {
+  margin: 8;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+textarea {
+  font-size: 5em;
+  border-bottom: thin solid grey;
+  height: 30%;
+  display: flex;
+  align-items: left;
+  padding: 50px;
+}

@@ -1,0 +1,23 @@
+<%- include('./header') %>
+
+<form method="post">
+  <div>
+    <label for="namelist">List of names separated by commas: </label><br>
+    <textarea type = "text" name = "namelist" rows = "8" cols = "50"><%= namelist %></textarea><br>
+  </div>
+
+    <div>
+    <label for = "sortingmethod">Sort Teams By Number of</label><br>
+    <input type = "radio" name = "sortingmethod" value = "T">Teams</input>
+    <input type = "radio" name = "sortingmethod" value = "P">People</input><br>
+    <input type="number" name="count" value="<%= count%>" min=1><br>
+    <input type="submit" name="submit">
+    </div>
+</form>
+
+  <% for(i in final) { %>
+    <h4>Team <%= parseInt(i)%></h4>
+    <%= final[i] %>
+  <% } %>
+
+<%- include('./footer') %>

@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/xxue/.nvm/versions/node/v7.4.0/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /Users/xxue/.rvm/gems/ruby-2.3.0/bin:/Users/xxue/.rvm/gems/ruby-2.3.0@global/bin:/Users/xxue/.rvm/rubies/ruby-2.3.0/bin:/Users/xxue/.nvm/versions/node/v7.4.0/bin:/Users/xxue/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/xxue/.rvm/bin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  7.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "assignment_node",
+    "version": "0.0.1",
+    "description": "team_randomizer",
+    "main": "app.js",
+    "repository": {},
+    "scripts": {
+      "start": "nodemon app.js"
+    },
+    "author": "xinxin xue",
+    "license": "MIT",
+    "dependencies": {
+      "body-parser": "^1.16.0",
+      "cookie-parser": "^1.4.3",
+      "ejs": "^2.5.5",
+      "express": "^4.14.1"
+      },
+    "devDependencies": {
+      "nodemon": "^1.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  TypeError: Cannot convert object to primitive value
+      at Object.<anonymous> (/usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn/lib/cli/commands/init.js:103:27)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+      at process._tickCallback (internal/process/next_tick.js:103:7)

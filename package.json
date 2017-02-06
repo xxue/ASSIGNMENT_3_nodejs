@@ -1,0 +1,21 @@
+{
+  "name": "assignment_node",
+  "version": "0.0.1",
+  "description": "team_randomizer",
+  "main": "app.js",
+  "repository": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "xinxin xue",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
